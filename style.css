@@ -1,0 +1,521 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {}
+
+
+
+
+img {
+    width: 100%;
+    border-radius: 0%;
+    border: 2px solid white;
+}
+
+video {
+    width: 100%;
+    border-radius: 0%;
+    border: 2px solid white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.baggrund_forside {
+    margin: 0;
+    background-image: url("Billeder/im_a_boss.jpg");
+    background-size: cover;
+    background-position: 71%;
+    background-attachment: fixed;
+}
+
+#menu {
+
+    margin-left: 1.4rem;
+    list-style-type: none;
+    transition: transform 1s;
+    position: absolute;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.47);
+    z-index: 1;
+
+
+}
+
+#menu a {
+
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+
+}
+
+#menu a:hover {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+#menu li {
+    padding: 0.25rem;
+}
+
+.hidden {
+    transform: translateX(-150%);
+    /*    display: none;*/
+
+}
+
+#menuknap {
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    padding: 1.5rem;
+    cursor: pointer;
+
+}
+
+.topnav {
+    list-style-type: none;
+    transition: transform 1s;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem;
+
+
+
+
+}
+
+.topnav a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.75rem;
+    margin-top: 0.75rem;
+    font-weight: bolder;
+}
+
+.topnav a:hover {
+    font-size: 1.6rem;
+}
+
+#velkommen a {
+    color: white;
+    text-decoration: none;
+}
+
+#velkommen a:link,
+#velkommen a:visited {
+    color: white;
+}
+
+.index_footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.underskrift img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 18vw;
+    border: 0px solid white;
+    position: absolute;
+    bottom: 0vw;
+    right: 0vw;
+}
+
+/*Footer*/
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+    /*
+    position: fixed;
+    bottom: 0;
+*/
+}
+
+/*Forside */
+
+#velkommen h1 {
+    font-size: 6rem;
+    color: white;
+    text-shadow: 4px -0.5px 0 #000;
+    font-family: 'Noto Serif SC', serif;
+    position: absolute;
+    left: 38vw;
+    bottom: 35vw;
+}
+
+
+/*cv */
+
+.cv_baggrund {
+    background-image: url("Billeder/im_a_boss.jpg");
+    background-size: cover;
+    background-position: 71%;
+
+    background-attachment: fixed;
+}
+
+#cv .arbejdstekst {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 1.15rem;
+}
+
+#cv ul {
+    list-style-type: none;
+}
+
+#cv .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+#cv .column {
+
+
+    flex-grow: 1;
+    background-color: #1f3123;
+    flex-basis: 600px;
+
+
+    padding: 1rem;
+
+}
+
+#cv p {
+    margin-bottom: 0.75rem;
+}
+
+
+
+#cv h2 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+
+}
+
+#cv h3 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+#cv li {
+    padding: 1rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*WEB*/
+
+#artdeco .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f3123;
+
+
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    margin-bottom: 1.4rem;
+
+
+
+}
+
+#artdeco .column {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 1rem;
+
+}
+
+
+
+
+#artdeco h2 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+    margin-bottom: 1rem;
+
+
+}
+
+#artdeco h3 {
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*INDHOLD */
+
+#indhold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f3123;
+
+
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    margin-bottom: 1.4rem;
+
+
+
+}
+
+#indhold .column {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 1rem;
+
+}
+
+
+
+
+#indhold h2 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+    margin-bottom: 1rem;
+
+}
+
+#indhold h3 {
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+
+    /*    margin-left: 0.75rem;*/
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+
+}
+
+#indhold video {
+    width: 100%;
+}
+
+#indhold p {
+    margin-bottom: 0.75rem;
+}
+
+/*Animation */
+
+#animation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f3123;
+
+
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    margin-bottom: 1.4rem;
+
+
+
+}
+
+#animation .column {
+    flex-basis: 340px;
+    flex-grow: 1;
+    padding: 1rem;
+
+}
+
+
+#animation h2 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+    margin-bottom: 1rem;
+
+}
+
+#animation h3 {
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+#animation p {
+    margin-bottom: 0.75rem;
+}
+
+
+/*UX*/
+
+#ux h3 {
+    margin-top: 0.75rem;
+}
+
+#ux p {
+    margin-bottom: 0.75rem;
+}
+
+#ux .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f3123;
+
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    margin-bottom: 1.4rem;
+
+
+
+}
+
+#ux .column {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 1rem;
+
+}
+
+#ux .columns {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+#ux h2 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+    margin-bottom: 1rem;
+
+
+}
+
+#ux h3 {
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+
+    margin-bottom: 0.75rem;
+
+}
+
+#ux .tema {
+    padding: 1rem;
+    display: flex;
+
+
+
+}
+
+.tema img {
+    width: 100%;
+
+}
+
+
+/*MEDIA*/
+
+
+@media only screen and (min-width: 600px) {
+    .tema {
+        width: 45%;
+        margin-left: 23.5rem;
+
+
+    }
+}
+
+@media screen and (min-width:680px) {
+
+    .burgermenu {
+        display: none;
+    }
+
+    #ux img {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width:680px) {
+
+    .topnav {
+        display: none;
+    }
+
+    .underskrift {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width: 25vw;
+        border: 0px solid white;
+        position: absolute;
+        top: 5vw;
+        left: 5vw;
+    }
+
+
+
+}
+
+@media screen and (min-width:680px) {
+    .moodboard {
+        width: 45%;
+        margin-left: 12rem;
+    }
+
+    .web_footer {
+        position: absolute;
+        bottom: 0;
+    }
+
+}
