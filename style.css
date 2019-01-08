@@ -262,10 +262,23 @@ footer {
     flex-grow: 1;
     padding: 1rem;
 
+
 }
 
+#artdeco .column1 {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 
+}
 
+.proces {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 1rem;
+}
 
 #artdeco h2 {
     font-size: 2rem;
@@ -283,6 +296,12 @@ footer {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
+
+.proces {
+    padding: 0;
+}
+
+
 
 
 
@@ -508,10 +527,16 @@ footer {
 }
 
 @media screen and (min-width:680px) {
-    .moodboard {
-        width: 45%;
-        margin-left: 12rem;
+    .proces img {
+        margin-top: 3rem;
     }
+
+    .column1 {
+        margin-top: 3rem;
+    }
+
+
+
 
     .web_footer {
         position: absolute;
